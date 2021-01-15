@@ -9,16 +9,30 @@
     --pure-white: #ffffff;
 }
 body {
-    font: ;
-    background-image: url(images/bg-pattern-bottom.svg);
-    background-image: url(images/bg-pattern-top.svg);
+    font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--dark-cyan);
 }
+.bg-img {
+    position: absolute;
+}
+.bg-img-top {
+    right: 50%;
+    bottom: 35%;
+}
+.bg-img-bottom {s
+    top: 50%;
+    left: 45%;
+}
 .card {
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+    box-shadow: 1px 1px 5px 1px rgba(167, 161, 161, 0.5) ;
+    -webkit-box-shadow: 0px 0px 200px 0px;
+    /* -moz-box-shadow: 300px 300px 500px 600px; */
     border: none;
     border-radius: 10px;
     width: 20%;
     margin: auto;
+    margin-top: 10%;
 }
 .card-header {
     background-image: url(images/bg-pattern-card.svg);
@@ -49,9 +63,9 @@ body {
     border-bottom-left-radius: 10px;
 }
 .card-details {
-    /* position: relative;
-    top: -2rem; */
-    margin-top: 0;
+    position: relative;
+    top: -2rem;
+    margin-top: -2rem;
     padding: 0rem
 }
 .name-and-age {
@@ -89,3 +103,18 @@ body {
     font-weight: 400;
     color: var(--dark-gray);
 }
+@media only screen and (max-width: 1440px) {
+    .card {
+      width: 40%;
+    }
+  }
+@media only screen and (max-width: 375px) {
+    body {
+      background-color: lightblue;
+    }
+    .card {
+        width: 80%;
+        margin: auto;
+        margin-top: 25%;
+    }
+  }
