@@ -1,3 +1,7 @@
+# For CSS Practice (cssp)
+Cloning a component from an image
+I'm stuck that there is an empty space between image and name, else I've figured out.
+
 # Frontend Mentor - Profile card component
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
