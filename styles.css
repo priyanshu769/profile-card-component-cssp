@@ -104,6 +104,14 @@ body {
     font-weight: 400;
     color: var(--dark-gray);
 }
+.attribution {
+    color: #000000;
+    font-size: 14px;
+  }
+  .attribution a {
+    color: #e74c3c;
+    text-decoration: none;
+  }
 @media only screen and (max-width: 1440px) {
     .card {
       width: 40%;
